@@ -32,7 +32,7 @@ image4Btn.addEventListener('click', () => {
 
 
     console.log('image4 is clicked');
-    bike.style.backgroundImage = 'url(images/image4.jpg)';
+    bike.style.backgroundImage = 'url(images/vans.webp)';
 
 });
 
