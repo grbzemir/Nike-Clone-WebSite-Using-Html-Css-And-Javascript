@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header {
+
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: white;
+}
+
+nav {
+
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar ul li {
+
+    display: inline-block;
+    /*Blok seklinde görüntüleme*/
+    /* Display the list items inline */
+    justify-content: space-between;
+    /* boşlukları hizalama yapar */
+    align-items: center;
+    /* tüm öğeleri ortalı şekilde sıralar*/
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    color: #242527;
+    padding: 20px;
+    transition: 0.5;
+}
+
+.navbar ul li a:hover {
+
+    color: #bd977b;
+
+}
+
+.logo {
+    width: 180px;
+}
+
+
+.content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+
+
+
+.content h1 {
+    color: #242527;
+    font-size: 70px;
+
+
+}
+
+.content h1 span {
+    color: #bd977b;
+}
+
+.content p {
+    color: rgb(141, 141, 141);
+    font-weight: 100;
+
+}
+
+
+button {
+    background-color: #3f3f3f;
+    width: 110px;
+    height: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    border: 1.5px solid #6b6b6b;
+    transition: all 0.3s ease-in-out;
+
+}
+
+button:hover {
+    background-color: #6b6b6b;
+    color: translateY(-10px);
+
+}
+
+.sosyal-medya {
+
+    padding-top: 20px;
+
+}
+
+.sosyal-medya a {
+
+    font-size: 35px;
+    color: #6b6b6b;
+    align-items: center;
+    padding-right: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    /* underline kaldırma */
+
+}
+
+.sosyal-medya a:hover {
+
+    color: #bd977b;
+
+}
+
+
+.content-image {
+    background-image: url(images/image1.png);
+    background-repeat: no-repeat;
+    /* resmi tekrar etme */
+    background-size: 450px;
+    /* resmi boyutlandırma */
+    background-position: center;
+    /* resmi ortala */
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 1900px;
+    height: 450px;
+    /* resim yüklenene kadar arka plan rengi */
+    transition: background-image 0.3s;
+    transform: translateX(0);
+    animation: float 6s ease-out infinite;
+
+}
+
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+
+}
