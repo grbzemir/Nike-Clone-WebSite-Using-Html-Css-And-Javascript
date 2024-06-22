@@ -135,7 +135,7 @@ button:hover {
     /* resmi ortala */
     margin-top: 90px;
     margin-left: 10px;
-    width: 1900px;
+    width: 1500px;
     height: 450px;
     /* resim yüklenene kadar arka plan rengi */
     transition: background-image 0.3s;
@@ -160,4 +160,25 @@ button:hover {
     }
 
 
+}
+
+
+.image-select img {
+    width: 100px;
+    padding: 10px;
+
+}
+
+.image-select div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+
+.image-select div:hover {
+
+    transform: translateY(-10px);
 }
