@@ -7,6 +7,7 @@ let image4Btn = document.querySelector('#image4');
 let bike = document.getElementById('bike');
 
 
+
 image1Btn.addEventListener('click', () => {
 
     console.log('image1 is clicked');
@@ -35,6 +36,9 @@ image4Btn.addEventListener('click', () => {
     bike.style.backgroundImage = 'url(images/vans.webp)';
 
 });
+
+
+
 
 
 
