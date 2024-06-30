@@ -190,3 +190,8 @@ button:hover {
     transition: 0.3s;
 
 }
+
+.image-select div img:hover {
+
+    transform: translateY(-10px);
+}
