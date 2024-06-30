@@ -182,3 +182,11 @@ button:hover {
 
     transform: translateY(-10px);
 }
+
+.image-select div img {
+
+    width: 100px;
+    padding: 10px;
+    transition: 0.3s;
+
+}
